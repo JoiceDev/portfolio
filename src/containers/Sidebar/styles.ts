@@ -7,8 +7,8 @@ export const Descricao = styled(P)`
 `
 
 export const BotaoTema = styled.button`
-  border-radius: 12px;
   padding: 8px;
+  border: none;
   color: ${(props) => props.theme.corDeFundo};
   font-size: 18px;
   font-weigth: bold;
