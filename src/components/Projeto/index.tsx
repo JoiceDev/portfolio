@@ -2,11 +2,19 @@ import Paragrafo from '../Paragrafo'
 import Title from '../Title'
 import { Card, LinkBotao } from './styles'
 
-const Projeto = () => (
+interface ProjetoProps {
+  titulo: string
+  descricao: string
+  link: string
+}
+
+const Projeto: React.FC<ProjetoProps> = ({ titulo, descricao, link }) => (
   <Card>
-    <Title>Projeto lista de tarefas</Title>
-    <Paragrafo tipo="secundario">Lista de tarefas feita com VueJS</Paragrafo>
-    <LinkBotao>Visualizar</LinkBotao>
+    <Title>{titulo}</Title>
+    <Paragrafo tipo="secundario">{descricao}</Paragrafo>
+    <LinkBotao as="a" href={link} target="_blank" rel="noopener noreferrer">
+      Visualizar
+    </LinkBotao>
   </Card>
 )
 
