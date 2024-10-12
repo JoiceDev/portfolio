@@ -5,6 +5,11 @@ import { Lista } from './styles'
 
 const projetos = [
   {
+    titulo: 'Harry Potter Landing Page',
+    descricao: '',
+    link: 'https://joices-harry-potter-page.vercel.app/'
+  },
+  {
     titulo: 'Lista de Tarefas VueJS',
     descricao: '',
     link: 'https://vue-to-do-one.vercel.app/'
