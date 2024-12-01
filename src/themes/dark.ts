@@ -3,7 +3,8 @@ const temaDark = {
   corSecundaria: '#D6A2E8',
   corDeFundo: '#282a35',
   corDeFundoBotao: '#9980FA',
-  corDaBorda: '#82589F'
+  corDaBorda: '#82589F',
+  corDeFundoSidebar: '#1e1e2f'
 }
 
 export default temaDark

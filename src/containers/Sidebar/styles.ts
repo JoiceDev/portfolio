@@ -10,7 +10,7 @@ export const BotaoTema = styled.button`
   padding: 8px;
   border: none;
   color: ${(props) => props.theme.corDeFundo};
-  font-size: 18px;
+  font-size: 12px;
   font-weigth: bold;
   background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
@@ -18,8 +18,15 @@ export const BotaoTema = styled.button`
 
 export const SidebarContainer = styled.div`
   position: sticky;
-  top: 80px;
+  top: 0; /* Garante que o elemento fique colado no topo */
+  margin-top: -80px; /* Compensa o padding-top do body */
   left: 0;
+  background-color: ${(props) => props.theme.corDeFundoSidebar};
+  height: calc(
+    100vh + 80px
+  ); /* Para ocupar toda a tela e o espaço compensado */
+  width: 180px;
+  text-align: center;
 
   @media (max-width: 768px) {
     margin-bottom: 40px;
