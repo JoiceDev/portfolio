@@ -1,4 +1,3 @@
-import { link } from 'fs'
 import Projeto from '../../components/Projeto'
 import Title from '../../components/Title'
 import { Lista } from './styles'
@@ -75,7 +74,8 @@ const projetos = [
   },
   {
     titulo: 'Photo Gallery',
-    descricao: '',
+    descricao:
+      'A galeria de fotos permite adicionar novas imagens via URL, exibindo miniaturas com links para visualização em tamanho real. Utiliza jQuery e CSS para interação e estilo.',
     link: 'https://photo-gallery-byjoicedev.vercel.app/'
   },
   {
