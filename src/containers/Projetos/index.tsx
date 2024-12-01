@@ -15,12 +15,6 @@ const projetos = [
     link: 'https://efood-by-joicedev.vercel.app/'
   },
   {
-    titulo: 'Harry Potter Landing Page',
-    descricao:
-      'Harry Potter Landing Page, uma aplicação web imersiva para fãs da série, com funcionalidades como o Chapéu Seletor, carrossel de imagens e integração com APIs. Utiliza JavaScript para interatividade e SASS para otimização de estilos.',
-    link: 'https://joices-harry-potter-page.vercel.app/'
-  },
-  {
     titulo: 'Calculadora VueJS',
     descricao:
       'Uma calculadora simples construída com Vue.js, que realiza operações matemáticas básicas em tempo real e resultados dinâmicos.',
@@ -51,9 +45,10 @@ const projetos = [
     link: 'https://task-list-gamma-two.vercel.app/'
   },
   {
-    titulo: 'Contact Registration',
-    descricao: '',
-    link: 'https://contact-registration-byjoice.vercel.app/'
+    titulo: 'Harry Potter Landing Page',
+    descricao:
+      'Harry Potter Landing Page, uma aplicação web imersiva para fãs da série, com funcionalidades como o Chapéu Seletor, carrossel de imagens e integração com APIs. Utiliza JavaScript para interatividade e SASS para otimização de estilos.',
+    link: 'https://joices-harry-potter-page.vercel.app/'
   },
   {
     titulo: 'Nature Blog',
@@ -62,9 +57,10 @@ const projetos = [
     link: 'https://nature-blog-bootstrap-avancado.vercel.app/'
   },
   {
-    titulo: 'Games Shop',
-    descricao: '',
-    link: 'https://site-gamesshop-sepia-six.vercel.app/'
+    titulo: 'Puppies Store',
+    descricao:
+      'Projeto desenvolvido com HTML5, CSS3, Media Queries, Flexbox e Positioning, apresentando uma loja fictícia de produtos para animais, com menu interativo, página de promoções e formulário de contato com ícones de redes sociais.',
+    link: 'https://site-petshop-by-joicedev.vercel.app/'
   },
   {
     titulo: 'Calculadora de Médias',
@@ -73,22 +69,16 @@ const projetos = [
     link: 'https://calculadora-de-medias-js.vercel.app/'
   },
   {
-    titulo: 'Photo Gallery',
-    descricao:
-      'A galeria de fotos permite adicionar novas imagens via URL, exibindo miniaturas com links para visualização em tamanho real. Utiliza jQuery e CSS para interação e estilo.',
-    link: 'https://photo-gallery-byjoicedev.vercel.app/'
-  },
-  {
-    titulo: 'Puppies Store',
-    descricao:
-      'Projeto desenvolvido com HTML5, CSS3, Media Queries, Flexbox e Positioning, apresentando uma loja fictícia de produtos para animais, com menu interativo, página de promoções e formulário de contato com ícones de redes sociais.',
-    link: 'https://site-petshop-by-joicedev.vercel.app/'
-  },
-  {
     titulo: 'Portal de Notícias',
     descricao:
       'Um portal de notícias simples, desenvolvido com HTML e CSS, onde são apresentadas notícias divididas em seções: Esportes, Economia, Política e Entretenimento. Cada seção possui uma lista de artigos com título, descrição e data de publicação, além de imagens ilustrativas.',
     link: 'https://portal-de-noticias-steel.vercel.app/'
+  },
+  {
+    titulo: 'Photo Gallery',
+    descricao:
+      'A galeria de fotos permite adicionar novas imagens via URL, exibindo miniaturas com links para visualização em tamanho real. Utiliza jQuery e CSS para interação e estilo.',
+    link: 'https://photo-gallery-byjoicedev.vercel.app/'
   }
 ]
 
