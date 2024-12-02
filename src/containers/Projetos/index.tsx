@@ -27,6 +27,12 @@ const projetos = [
     link: 'https://calculadora-vue-by-joicedev.vercel.app/'
   },
   {
+    titulo: 'Contagem Regressiva',
+    descricao:
+      'Landing page com contagem regressiva em JavaScript, estilização em SASS e animações com AOS.',
+    link: 'https://countdown-birthday-joicedev.vercel.app/'
+  },
+  {
     titulo: 'Disney Plus Clone',
     descricao:
       'Página web inspirada no Disney+, com estilização em SASS, interatividade com JavaScript, automação de tarefas realizada utilizando Gulp, com pacotes como gulp-sass, gulp-imagemin e gulp-uglify, otimizando o processo de build, incluindo o processamento de estilos, scripts e imagens.',
@@ -37,12 +43,6 @@ const projetos = [
     descricao:
       'Site responsivo desenvolvido com Bootstrap, incluindo navegação, carrossel de imagens, abas, formulário de contato e integração com redes sociais. Utilização do sistema de grid do Bootstrap, jQuery e suas classes e plugins',
     link: 'https://tasty-bistro-bs.vercel.app/'
-  },
-  {
-    titulo: 'Contagem Regressiva',
-    descricao:
-      'Landing page com contagem regressiva em JavaScript, estilização em SASS e animações com AOS.',
-    link: 'https://countdown-birthday-joicedev.vercel.app/'
   },
   {
     titulo: 'Task List',
