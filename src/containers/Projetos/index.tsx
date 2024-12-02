@@ -9,6 +9,12 @@ const projetos = [
   //   link: ''
   // },
   {
+    titulo: 'Lista de Contatos com React',
+    descricao:
+      'Uma lista de contatos simples utilizando React, Redux Toolkit e TypeScript. A aplicação permite adicionar, editar e remover contatos com validação de formulários e controle de estado centralizado. Utilizei Styled Components para uma estilização modular e responsiva.',
+    link: 'https://react-contact-list-by-joicedev.vercel.app/'
+  },
+  {
     titulo: 'Efood',
     descricao:
       'Desenvolvimento de aplicação TSX com React e TypeScript, estilização dinâmica com Styled Components, gerenciamento de estado com Redux Toolkit e RTK Query, manutenção de código com ESLint e Prettier, e foco em design responsivo e experiência do usuário, incluindo integração de modais e carrinho com atualizações em tempo real.',
